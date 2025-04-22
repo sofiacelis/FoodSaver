@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green">
+
+    <LinearLayout
+        android:id="@+id/sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/dark_green">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOBRE O APP"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingTop="40dp"/>
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="266dp"
+            android:layout_height="227dp"
+            android:src="@drawable/kitchen" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual a finalidade?"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:paddingTop="20dp"
+            android:text="O desperdício de alimentos é um problema global que causa prejuízos financeiros e impactos ambientais. Muitos consumidores descartam alimentos ainda consumíveis por não gerenciarem corretamente suas datas de validade. O aplicativo FoodSaver busca solucionar esse problema, permitindo ocadastro e controle dos alimentos em casa. Com isso, além de reduzir o desperdício, o app incentiva práticas sustentáveis e um consumo mais consciente."
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Como usar cada tela?"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Tela de Cadastro de Alimentos:"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:paddingTop="0dp"
+            android:text="Nesta tela, você pode cadastrar os alimentos disponíveis no seu armário ou geladeira, incluindo itens recém-comprados."
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Tela de Visualização de Alimentos:"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="389dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:paddingTop="0dp"
+            android:text="Aqui, você pode visualizar os alimentos cadastrados, além de editar ou excluir itens conforme o consumo."
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Tela de Controle de Vencimento:"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:paddingTop="0dp"
+            android:text="Nesta tela, os alimentos próximos do vencimento são destacados para facilitar o controle e evitar desperdícios."
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
