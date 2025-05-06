@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:id="@+id/menu"
+    android:id="@+id/main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -71,13 +71,13 @@
 
     <Button
         android:id="@+id/button_sobre1"
-        android:layout_width="185dp"
+        android:layout_width="253dp"
         android:layout_height="66dp"
-        android:text="Sobre o app"
+        android:layout_marginTop="50dp"
         android:backgroundTint="@color/black"
-        android:textStyle="bold"
+        android:text="Sobre o app"
         android:textSize="15dp"
-        android:layout_marginTop="50dp">
+        android:textStyle="bold">
 
     </Button>
 
