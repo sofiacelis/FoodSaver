@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_green"
+    tools:context=".RecuperarSenhaActivity"
+    android:id="@+id/recuperar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperar senha"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira o e-mail cadastrado para receber as informações de troca de senha."
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/editEmailRecuperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu E-mail..."
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btEnviarRecuperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Enviar"
+        android:textSize="30dp"
+        android:backgroundTint="@color/black" />
+
+    <EditText
+        android:id="@+id/novaSenhaRecuperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nova senha"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btAtualizarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:text="Atualizar Senha"
+        android:textSize="30dp"
+        android:backgroundTint="#004d00"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>

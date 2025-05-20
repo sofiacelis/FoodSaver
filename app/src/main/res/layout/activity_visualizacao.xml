@@ -2,15 +2,14 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layoutMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#006400"
     android:padding="16dp"
-    tools:context=".VisualizacaoActivity">
+    tools:context=".VisualizacaoActivity"
+    android:id="@+id/visualizacao">
 
-    <!-- Título -->
     <TextView
         android:id="@+id/textTitulo"
         android:layout_width="match_parent"
@@ -89,6 +88,7 @@
                     android:gravity="center">
 
                     <Button
+                        android:id="@+id/btExcluir"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Excluir"
@@ -99,6 +99,7 @@
 
 
                     <Button
+                        android:id="@+id/btEditar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Editar"
@@ -118,6 +119,7 @@
 
     <!-- Botão Menu -->
     <Button
+        android:id="@+id/btMenu"
         android:layout_width="273dp"
         android:layout_height="66dp"
         android:layout_marginTop="10dp"

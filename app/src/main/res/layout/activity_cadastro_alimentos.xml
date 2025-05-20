@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="20dp"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:id="@+id/cadastro_alimento">
 
         <!-- Nome/Descrição -->
 
@@ -81,7 +82,7 @@
             android:textSize="16sp"/>
 
         <EditText
-            android:id="@+id/dataEdit"
+            android:id="@+id/etData"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:textStyle="bold"
@@ -103,7 +104,7 @@
             android:layout_marginBottom="5dp"/>
 
         <Spinner
-            android:id="@+id/spinnerLocal"
+            android:id="@+id/spinnerTipoAlimento"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="#FFFFFF"
@@ -112,6 +113,7 @@
 
         <!-- Botão Cadastrar -->
         <Button
+            android:id="@+id/btCadastrarAlimento"
             android:layout_width="273dp"
             android:layout_height="66dp"
             android:layout_marginTop="0dp"
@@ -122,6 +124,7 @@
 
         <!-- Botão Visualizar -->
         <Button
+            android:id="@+id/btVisualizarAlimento"
             android:layout_width="273dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
