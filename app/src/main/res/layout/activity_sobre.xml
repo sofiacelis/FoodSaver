@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
-        android:id="@+id/sobre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:background="@color/dark_green">
+    android:layout_height="match_parent"
+    android:id="@+id/sobre"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/dark_green">
 
         <ImageView
             android:id="@+id/imagem"
@@ -35,7 +31,7 @@
             android:layout_height="wrap_content"
             android:justificationMode="inter_word"
             android:paddingTop="20dp"
-            android:text="O desperdício de alimentos é um problema global que causa prejuízos financeiros e impactos ambientais. Muitos consumidores descartam alimentos ainda consumíveis por não gerenciarem corretamente suas datas de validade. O aplicativo FoodSaver busca solucionar esse problema, permitindo ocadastro e controle dos alimentos em casa. Com isso, além de reduzir o desperdício, o app incentiva práticas sustentáveis e um consumo mais consciente."
+            android:text="O desperdício de alimentos é um problema global que causa prejuízos financeiros e impactos ambientais. Muitos consumidores descartam alimentos ainda consumíveis por não gerenciarem corretamente suas datas de validade. O aplicativo FoodSaver busca solucionar esse problema, permitindo o cadastro e controle dos alimentos em casa. Com isso, além de reduzir o desperdício, o app incentiva práticas sustentáveis e um consumo mais consciente."
             android:textColor="@android:color/black"
             android:textSize="15dp" />
 
@@ -105,5 +101,3 @@
             android:layout_marginBottom="50dp"/>
 
     </LinearLayout>
-
-</ScrollView>

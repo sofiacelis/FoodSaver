@@ -13,9 +13,11 @@
         android:theme="@style/Theme.FoodSaver"
         tools:targetApi="31">
         <activity
+            android:name=".SobreActivity"
+            android:exported="false" />
+        <activity
             android:name=".VencimentoActivity"
             android:exported="false" />
-
         <activity
             android:name=".ConfigActivity"
             android:exported="false" />

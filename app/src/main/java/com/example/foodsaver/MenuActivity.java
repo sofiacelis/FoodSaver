@@ -6,15 +6,17 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
     ImageButton btMNUCadastroAlimentos, btMNUVisualizacao, btMNUControle, btMNUConfig;
+    Button btMNUSobre;
     String email="";
 
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         btMNUVisualizacao= findViewById(R.id.image_button_visualizacao);
         btMNUControle= findViewById(R.id.image_button_controle);
         btMNUConfig= findViewById(R.id.image_button_config);
+        btMNUSobre = findViewById(R.id.btSobre);
 
 
 
@@ -38,6 +41,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         btMNUVisualizacao.setOnClickListener(this);
         btMNUControle.setOnClickListener(this);
         btMNUConfig.setOnClickListener(this);
+        btMNUSobre.setOnClickListener(this);
 
     }
 
@@ -57,6 +61,10 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         }
         if (v.getId()==R.id.image_button_config){
             Intent tela = new Intent(this, ConfigActivity.class);
+            startActivity(tela);
+        }
+        if (v.getId()==R.id.btSobre){
+            Intent tela = new Intent(this, SobreActivity.class);
             startActivity(tela);
         }
     }

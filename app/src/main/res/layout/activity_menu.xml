@@ -70,7 +70,7 @@
     </GridLayout>
 
     <Button
-        android:id="@+id/button_sobre"
+        android:id="@+id/btSobre"
         android:layout_width="253dp"
         android:layout_height="66dp"
         android:layout_marginTop="50dp"
