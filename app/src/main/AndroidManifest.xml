@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FoodSaver"
         tools:targetApi="31">
         <activity
+            android:name=".MudarSenhaActivity"
+            android:exported="false" />
+        <activity
             android:name=".SobreActivity"
             android:exported="false" />
         <activity

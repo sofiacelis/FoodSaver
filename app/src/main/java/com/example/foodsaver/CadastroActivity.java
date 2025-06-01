@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class CadastroActivity extends AppCompatActivity {
 
-    EditText nomeCadastro, editCPF, emailCadastro, criarSenha, confirmarSenha;
+    EditText nomeCadastro, emailCadastro, criarSenha, confirmarSenha;
     Button btCadastrar;
     BancoDados db;
 
@@ -19,7 +19,6 @@ public class CadastroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cadastro);
 
         nomeCadastro = findViewById(R.id.nomeCadastro);
-        editCPF = findViewById(R.id.editCPF);
         emailCadastro = findViewById(R.id.emailCadastro);
         criarSenha = findViewById(R.id.criarSenha);
         confirmarSenha = findViewById(R.id.confirmarSenha);
@@ -28,14 +27,23 @@ public class CadastroActivity extends AppCompatActivity {
         db = new BancoDados(this);
 
         btCadastrar.setOnClickListener(v -> {
-            String nome = nomeCadastro.getText().toString();
-            String cpf = editCPF.getText().toString();
-            String email = emailCadastro.getText().toString();
+            String nome = nomeCadastro.getText().toString().trim();
+            String email = emailCadastro.getText().toString().trim();
             String senha = criarSenha.getText().toString();
             String confirma = confirmarSenha.getText().toString();
 
-            if (nome.isEmpty() || cpf.isEmpty() || email.isEmpty() || senha.isEmpty() || confirma.isEmpty()) {
+            if (nome.isEmpty() || email.isEmpty() || senha.isEmpty() || confirma.isEmpty()) {
                 Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            if (nome.length() < 5) {
+                Toast.makeText(this, "O nome deve ter pelo menos 5 letras", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            if (!email.contains("@") || !email.contains(".")) {
+                Toast.makeText(this, "Digite um email válido", Toast.LENGTH_SHORT).show();
                 return;
             }
 
@@ -49,10 +57,10 @@ public class CadastroActivity extends AppCompatActivity {
                 return;
             }
 
-            boolean cadastrado = db.cadastrarUsuario(nome, cpf, email, senha);
+            boolean cadastrado = db.cadastrarUsuario(nome, email, senha);
             if (cadastrado) {
                 Toast.makeText(this, "Cadastro realizado com sucesso", Toast.LENGTH_SHORT).show();
-                finish(); // fecha essa tela e volta para o login
+                finish(); // Fecha a tela e volta para o login
             } else {
                 Toast.makeText(this, "Erro no cadastro", Toast.LENGTH_SHORT).show();
             }

@@ -40,6 +40,5 @@
             android:paddingBottom="8dp"/>
 
     </ScrollView>
-
 </LinearLayout>
 

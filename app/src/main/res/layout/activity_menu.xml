@@ -24,7 +24,7 @@
         android:columnCount="2"
         android:rowCount="2"
         android:gravity="center"
-        android:padding="16dp">
+        android:padding="9dp">
 
         <ImageButton
             android:id="@+id/image_button_cadastro"
@@ -36,7 +36,7 @@
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
             android:backgroundTint="@color/dark_green"
-            android:src="@drawable/icon_cadastro" />
+            android:src="@drawable/icon_cadastro"/>
 
         <ImageButton
             android:id="@+id/image_button_visualizacao"
