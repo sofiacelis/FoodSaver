@@ -37,7 +37,7 @@ public class CadastroAlimentos extends AppCompatActivity {
         db = new BancoDados(this);
 
         String[] grupos = {"Frutas", "Legumes", "Carnes", "Laticínios", "Grãos", "Carboidratos", "Outros"};
-        String[] quantidades = {"Unidades", "Kilos", "Litros"};
+        String[] quantidades = {"Unidades", "Gramas", "Kilos", "Litros"};
         String[] locais = {"Geladeira", "Armário", "Congelador", "Outro"};
 
         ArrayAdapter<String> adapterGrupo = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, grupos);
