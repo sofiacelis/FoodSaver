@@ -51,7 +51,7 @@ public class VisualizacaoActivity extends AppCompatActivity {
             return;
         }
 
-        String[] grupos = {"Todos", "Frutas", "Legumes", "Carnes", "Laticínios", "Grãos", "Outros"};
+        String[] grupos = {"Todos", "Frutas", "Legumes", "Carnes", "Laticínios", "Grãos", "Carboidratos","Outros"};
         ArrayAdapter<String> adapterGrupo = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, grupos);
         adapterGrupo.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerGrupo.setAdapter(adapterGrupo);
