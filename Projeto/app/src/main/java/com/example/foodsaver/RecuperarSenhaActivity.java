@@ -43,9 +43,6 @@ public class RecuperarSenhaActivity extends AppCompatActivity {
                 return;
             }
 
-            // Simula envio de email e libera atualização da senha
-            Toast.makeText(this, "Senha atualizada com sucesso", Toast.LENGTH_LONG).show();
-
             emailParaAtualizar = email;
 
             // Mostrar campo e botão para atualizar senha
