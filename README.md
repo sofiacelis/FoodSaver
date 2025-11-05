@@ -58,11 +58,11 @@ Você pode baixar o arquivo `.apk` (o instalador do app) diretamente da seção 
 | ![Login](./screenshots/login.jpg) | ![Cadastro](./screenshots/cadastro_conta.jpg) | ![Menu](./screenshots/menu.jpg) | ![Alerta de Vencimento](./screenshots/tela_alimentos_vencimento.jpg) |
 
 | Cadastro de Alimentos | Editar/Excluir Alimentos | Visualizar Alimentos Cadastrados |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: |
 | ![Cadastro de Alimentos](./screenshots/cadastro_alimento.jpg) | ![Editar/Excluir Alimentos](./screenshots/editar_excluir_alimentos.jpg)  | ![Visualizar Alimentos Cadastrados](./screenshots/visualizar_alimentos_cadastrados.jpg) |
 
 | Sobre o App | Recuperar Senha | Configurações |
-| :---: | :---: |
+| :---: | :---: | :---: |
 | ![Sobre o App](./screenshots/sobre_app.jpg) | ![Recuperar Senha](./screenshots/recuperar_senha.jpg) | ![Configurações](./screenshots/configuracoes.jpg) |
 
 ## 🎓 Contexto Acadêmico
