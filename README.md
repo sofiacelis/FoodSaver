@@ -17,7 +17,7 @@ Os usuários podem registrar seus alimentos, categorizá-los por local de armaze
 * **Cadastro de Alimentos:** Registre novos itens de forma simples.
 * **Categorização:** Separe os alimentos por "Geladeira", "Armário", "Congelador", etc.
 * **Controle de Validade:** Defina a data de vencimento de cada item.
-* **Alertas e Notificações:** A aplicação destaca os alimentos próximos do vencimento.
+* **Alertas:** A aplicação destaca os alimentos próximos do vencimento.
 * **Controle de Inventário:** Tenha uma visão clara do que você possui em casa.
 
 ## 🛠️ Tecnologias Utilizadas
