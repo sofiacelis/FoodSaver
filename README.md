@@ -10,7 +10,7 @@ Projeto acadêmico de um aplicativo Android para gerenciamento de alimentos e co
 
 O FoodSaver é um aplicativo móvel desenvolvido para ajudar no controle de alimentos domésticos. Seu principal objetivo é **reduzir o desperdício de alimentos** através do monitoramento de datas de validade.
 
-Os usuários podem registrar seus alimentos, categorizá-los por local de armazenamento (geladeira, armário, freezer) e, o mais importante, definir a data de validade. O aplicativo então envia notificações e alertas para os itens que estão próximos do vencimento.
+Os usuários podem registrar seus alimentos, categorizá-los por local de armazenamento (geladeira, armário, freezer) e, o mais importante, definir a data de validade. O aplicativo então destaca os itens que estão próximos do vencimento.
 
 ## ✨ Funcionalidades Principais
 
@@ -51,11 +51,19 @@ Você pode baixar o arquivo `.apk` (o instalador do app) diretamente da seção 
 
 (Você precisará criar essa "Release", vou explicar abaixo).
 
-## 📸 Screenshots
+## 🖼️ Screenshots
 
-| Tela de Login | Tela Principal (Inventário) | Alerta de Vencimento |
-| :---: | :---: | :---: |
-| [Tela de Login](./screenshots/login.jpeg)
+| Tela de Login | Tela de Cadastro | Tela Principal (Menu) | Alerta de Vencimento |
+| :---: | :---: | :---: | :---: |
+| ![Login](./screenshots/login.jpg) | ![Cadastro](./screenshots/cadastro_conta.jpg) | ![Menu](./screenshots/menu.jpg) | ![Alerta de Vencimento](./screenshots/tela_alimentos_vencimento.jpg) |
+
+| Cadastro de Alimentos | Editar/Excluir Alimentos | Recuperar Senha | Configurações |
+| :---: | :---: | :---: | :---: |
+| ![Cadastro de Alimentos](./screenshots/cadastro_alimento.jpg) | ![Editar/Excluir Alimentos](./screenshots/editar_excluir_alimentos.jpg) | ![Recuperar Senha](./screenshots/recuperar_senha.jpg) | ![Configurações](./screenshots/configuracoes.jpg) |
+
+| Sobre o App | Visualizar Alimentos Cadastrados |
+| :---: | :---: |
+| ![Sobre o App](./screenshots/sobre_app.jpg) | ![Visualizar Alimentos Cadastrados](./screenshots/visualizar_alimentos_cadastrados.jpg) |
 
 ## 🎓 Contexto Acadêmico
 
@@ -64,5 +72,5 @@ Este projeto foi desenvolvido como um trabalho para a disciplina Programação p
 ## 👨‍💻 Autores
 
 * Sofia Gomes Celis - (https://github.com/sofiacelis)
-* Luiza Celis Leite Cunha -
-* Izabella Zucchini - 
+* Luiza Celis Leite Cunha 
+* Izabella Zucchini 
