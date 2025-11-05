@@ -34,7 +34,7 @@ Para visualizar e compilar o código-fonte em sua máquina, siga os passos:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    https://github.com/sofiacelis/FoodSaver.git
     ```
 2.  **Abra no Android Studio:**
     * Abra o Android Studio.
